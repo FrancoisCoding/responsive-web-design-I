@@ -288,6 +288,10 @@ button {
     color: white;
 }
 
+hr{
+    visibility: hidden;
+}
+
 @media screen and (max-width: 800px) {
     body{
         width: 100%;
@@ -308,7 +312,10 @@ button {
     .logo {
         max-width: 100%;
         max-height: 100%;
-        padding-left: 10px;
+        padding-left: 50px;
+    }
+    hr {
+        visibility: hidden;
     }
 }
 
@@ -323,16 +330,17 @@ button {
     }
     
     .navbar a{
-        padding:0px;
-        border-top: 1px solid black;
         width:100%;
     }
     .nav-links {
-        padding-left: 100px;
+        padding-left: 110px;
         flex-direction: column;
-        border-top: 1px solid black;
     }
     footer {
         visibility: hidden;
+    }
+    
+    .logo{
+        padding-left: 20px;
     }
 }
